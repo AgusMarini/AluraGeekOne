@@ -1,0 +1,340 @@
+header{
+  width: 100%;
+  height: 7rem ;
+}
+
+.AluraGeek{
+  display: flex;
+  align-items: center; 
+  margin-left: 10rem; 
+  padding: 1rem;
+  background-color:var(--color-white);
+
+  
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center; 
+  margin: 1rem;
+  left: 1rem;
+  }
+  
+  
+  .container img {
+    position: absolute;
+    right: 10px;
+    color: var(--color-grey); 
+  }
+  
+
+  .search__input {
+     
+     padding: 0.5rem 4.5rem 0.5rem 2rem;
+    border: 1px solid #ccc; 
+    border-radius: 1rem; 
+    outline: none; 
+    font-size: 17px;
+    width: 400px;
+    text-align: left;
+    background-color: lightgrey;
+    font-family: sans-serif;
+   }
+  .button-loggin{
+    padding: 1rem 5rem;
+    margin-left: 26rem;
+    border: 2px solid var(--color-blue);
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    font-family: sans-serif;
+  }
+  /* section */
+  #formulario{
+      display: flex;
+      justify-content: center;
+      /* justify-content: space-evenly; */
+      flex-direction: column;
+      width:100%;
+      height: 300px;
+      margin: auto;
+      padding: 24px;
+      background-color: #F5F5F5;
+  }
+  .formulario__titulo{
+      display: flex;
+      justify-content: center;
+      font-family: 'Raleway', sans-serif;
+     
+      font-family: Raleway;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+  }
+  .formulario__input{
+      width: 423px;
+       height: 63.127px;
+      flex-shrink: 0;
+      border-radius: 4px;
+      background:  #FFF;
+      margin: 1rem;
+      border:#F5F5F5;
+  }
+  .formulario__input--email{
+      margin-left: 35rem;
+  }
+  .formulario__input--password{
+      margin-left: 35rem;
+  }
+  .formulario__btn{
+      display: flex;
+      justify-content: center;
+  }
+  .formulario__btn-entrar{
+      display: flex;
+      width: 423px;
+      height: 62px;
+      padding: 12px 16px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      background-color:#2A7AE4 ;
+      border: none;
+      color: #FFF;
+      margin-left: 35rem;
+  }
+  /* section form */
+.blue-section{
+  background-color: rgb(232 240 253);
+  
+}
+.blue-container{
+  display: flex;
+  
+}
+.blue-content{
+  display: flex;
+}
+.logo-alura{
+  
+  padding: 6rem;
+  margin: 2rem;
+}
+.blue-link{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  margin-left: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-family: 'Raleway', sans-serif;
+}
+/* contacto */
+.contacto{
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  margin-left: 9rem;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+.contacto-titulo{
+  margin-right:1rem ;
+  color: rgb(53, 52, 52);
+}
+.input-container{
+  position: relative;
+  width: 100%;
+}
+.input-container__input{
+  border-radius: 0.3rem;
+  padding: 1rem;
+  font-family:'Raleway', sans-serif ;
+  border: none;
+  width: 300%;
+}
+.contacto-button{
+  position: relative;
+  display: inline-block;
+  border: 0;
+  padding: 20px 25px;
+  color: white;
+  font-size: 1rem;
+  background-color: #2A7AE4;
+  font-family:'Raleway', sans-serif ;
+  text-decoration: none;
+  transition: all .2s ease;
+  z-index: 0;
+  text-align: center;
+  margin-right: 1.5rem;
+}
+.contacto-button:hover{
+  background-color: #ccc;
+}
+/* footer */
+.footer{
+  background-color:#2A7AE4;
+  width: 100%;
+  padding: 1rem;
+}
+.copy-right{
+  text-align: center;
+}
+
+@media  (max-width:600px) {
+.AluraGeek{
+  margin: 1rem;
+}
+#formulario{
+  height: 500px;
+}
+.search__input{
+  display: none;
+  width: 100%;
+}
+.container{
+  margin-left: 15rem;
+}
+.formulario__input{
+  margin-left: 1rem;
+  position: relative;
+  top: 2rem;
+}
+.formulario__btn-entrar{
+  position: relative;
+  top: 2rem;
+  right: 34rem;
+}
+.logo-alura{
+  position: relative;
+  top: -6rem;
+  right: -1rem;
+}
+.blue-link{
+  margin-left: -17rem;
+  position: relative;
+  top:2rem;
+  
+}
+.contacto{
+  position: relative;
+  top: 22rem;
+  left: -27rem;
+}
+.blue-section{
+  height: 750px;
+}
+
+}
+@media  (max-width:800px) {
+.AluraGeek{
+  margin: 1rem;
+}
+#formulario{
+  height: 500px;
+}
+
+.container{
+  margin-left: 0;
+  
+}
+.search__input{
+  width: 250px;
+}
+.formulario__input{
+  margin-left: 8rem;
+  position: relative;
+  top: 2rem;
+}
+.formulario__btn-entrar{
+  position: relative;
+  top: 2rem;
+  right: 27rem;
+}
+.logo-alura{
+  position: relative;
+  top: -6rem;
+  right: -6rem;
+}
+.blue-link{
+  margin-left: -11rem;
+  position: relative;
+  top:2rem;
+  
+}
+.contacto{
+  position: relative;
+  top: 22rem;
+  left: -30rem;
+}
+.blue-section{
+  height: 750px;
+}
+}
+@media  (max-width:1200px){
+
+
+.container{
+  margin-left: 10rem;
+  
+}
+.search__input{
+  width: 400px;
+}
+.formulario__input{
+  margin-left: 23rem;
+  position: relative;
+  top: 2rem;
+}
+.formulario__titulo{
+  margin-left: 9rem;
+}
+.formulario__btn-entrar{
+  position: relative;
+  top: 2rem;
+  right: 12rem;
+}
+#formulario{
+  height: 500px;
+}
+.logo-alura{
+  position: relative;
+  top: -6rem;
+  right: -23rem;
+}
+.blue-link{
+  margin-left: 1rem;
+  position: relative;
+  top:2rem;
+  
+}
+.contacto{
+  position: relative;
+  top: 22rem;
+  left: -30rem;
+}
+.blue-section{
+  height: 750px;
+}
+}
+@media  (max-width:1530px){
+.container{
+  margin-left: 10rem;
+  
+}
+.search__input{
+  width: 400px;
+}
+.blue-link{
+  margin-left: 1rem;
+}
+.contacto{
+  margin-left: 1rem;
+}
+.blue-section{
+  height: 750px;
+}
+}

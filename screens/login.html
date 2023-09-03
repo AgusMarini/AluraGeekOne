@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/login.css">
+    <title>AluraGeek-Login</title>
+</head>
+<body>
+    <header>
+        <div class="AluraGeek">
+           <a href="index.html"><img  class="logo" src="/assets/imagenes/Logo.png" alt="logo"></a> 
+            <form class="container">
+                <input class="search__input hide" type="text" placeholder="¿Que desea buscar?" >
+                <img class="header__logo-busqueda " width="20px" src="/assets/imagenes/busqueda.png" alt="">
+            </form>
+             
+            
+        </div>
+    </header>
+    <section id="formulario">
+        <legend class="formulario__titulo">Iniciar Sesion</legend>
+        <input type="email" class="formulario__input formulario__input--email" placeholder="Escriba su correo electronico">
+        <input type="password" class="formulario__input formulario__input--password" placeholder="Escriba su contrasenha">
+        <button class="formulario__btn-entrar">Entrar</button>
+        </form>
+    </section>
+    <section class="blue-section">
+        <div class="blue-container">
+            <div class="blue-content">
+                <a class="logo-alura" href="index.html">
+                    <img  src="/assets/imagenes/Logo.png" alt="">
+                </a>
+                <ul class="blue-link">
+                    <li class="a">Quienes Somos</li>
+                    <li class="a">Politica de privacidad</li>
+                    <li class="a">Programa de fidelidad</li>
+                    <li class="a">Nuestras Tiendas</li>
+                    <li class="a">Quiero ser franquiciado</li>
+                    <li class="a">Anuncie aqui</li>
+                </ul>
+            </div>
+            <div class="contacto">
+                <h3 class="contacto-titulo">Hable con nosotros</h3>
+                <div class="input-container">
+                    <input type="text" class="input-container__input" id="name" maxlength="40" placeholder="Nombre" required>
+                    <label for="name" class="input-container__label"></label>
+                    <!-- <div data-forinput="name" class="input-container__message" </div> -->
+
+                </div>
+                <div class="input-container">
+                    <textarea class="input-container__input" name="message" id="message" maxlength="120" placeholder="Escribe tu mensaje" required></textarea>
+                    <label class="input-container__label" for="message"></label>
+                </div>
+                <button class="contacto-button">Enviar mensaje</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <p class="copy-right">Desarrollado por 
+                <a href="">@AgusMarini</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/agregar-productos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <title>AluraGeek-Login</title>
+</head>
+<body>
+    <header>
+        <div class="AluraGeek">
+           <a href="index.html"><img  class="logo" src="/imagenes/Logo.png" alt="logo"></a> 
+            <form class="container">
+                <input class="search__input hide" type="text" placeholder="¿Que desea buscar?" >
+                <img class="header__logo-busqueda " width="20px" src="/imagenes/busqueda.png" alt="">
+            </form>
+            <a class="button-loggin" href="login.html">Administrador</a>   
+            
+        </div>
+    </header>
+   
+    <main>
+        <section class="producto__add">
+            <div class="producto__caja">
+                <form class="producto__form"  data-form-producto="">
+                    <h1 class="producto__titulo">Agregar nuevo producto</h1>
+                    <div class="input__container ">
+                        <label for="">Url de imagen</label>
+                        <input class="producto__imagen" type="text" placeholder="https://example.com/my-img.png"  required data-url>
+                    </div>
+                    <div class="input__container">
+                        <label for="">Categoría</label>
+                        <input class="producto__categoria" type="text" name="producto" required placeholder="consolas" data-category>
+                    </div>
+                    <div class="input__container">
+                        <label for="">Nombre del producto</label>
+                        <input class="producto__nombre" type="text" name="nombre" data-name>
+                    </div>
+                    <div class="input__container">
+                        <label for="precio">Precio del producto</label>
+                        <input class="producto__precio" type="text" required placeholder="$200.00" data-price>
+                    </div>
+                    <div class="input__container">
+                        <label for="">Descripción del producto</label>
+                        <textarea class="producto__descripcion" name="description" cols="30" rows="10" data-description></textarea>
+                    </div>
+                    <input class="input__btn" type="submit" value="Agregar producto">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <p class="copy-right">Desarrollado por 
+                <a href="">@AgusMarini</a>
+            </p>
+        </div>
+    </footer>
+    <script type="module" src="/controllers/add-producto.js"></script>
+</body>
+</html>

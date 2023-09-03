@@ -1,0 +1,41 @@
+.hero{
+    display: flex;
+    background-image: url("/assets/imagenes/banner-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero__container{
+    display: flex;
+    width: 1136px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 16px;
+}
+.hero__container h1{
+    color: var(--petro-50);
+    font-family: Ralewey;
+    font-size:52px ;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero__container h2{
+    color: var(--petro-50);
+    font-family: Ralewey;
+    font-size:22px ;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero__boton{
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--Azul-main);
+    color: #f5f5f5;
+    border: none;
+}
